@@ -1,0 +1,13 @@
+PS C:\ACCUBITS\STUDY\CRED-PROTOCOL-AAVE\cred-protocol-aave> node lending.js
+lpAddresss : 0x398eC7346DcD622eDc5ae82352F02bE94C62d119
+PS C:\ACCUBITS\STUDY\CRED-PROTOCOL-AAVE\cred-protocol-aave> node lendingPool.js
+===============  LENDING POOL USER DATA  ===============
+Lending pool user data for 0x159c1FCC4aa34ffcD0cb9e5a6D34051A82c119b0 : {"total Collateral ETH":"3936.284314165941662963","total Debt ETH":"2454.8681146192692251
+48","available Borrows ETH":"379.256591580208772185","current Liquidation Threshold":"0.0000000000000083","loan to value":"0.0000000000000072","health Factor":"1
+.330872302793519164"}
+===============  LENDING POOL USER RESERVE DATA  ===============
+Lending pool user reserve data for 0x159c1FCC4aa34ffcD0cb9e5a6D34051A82c119b0 : {"current AToken Balance":"0","current Borrow Balance":"0","principal Borrow Bala
+nce":"0","borrow Rate Mode":"0","borrow Rate":"0","liquidity Rate":"1413272.500697243314519944"}
+PS C:\ACCUBITS\STUDY\CRED-PROTOCOL-AAVE\cred-protocol-aave> node Pool.js
+lpAddresss : {"total Collateral Base":"0.000000200049428201","total Debt Base":"0.000000087503557647","available Borrows Base":"0.000000060533019222","current Li
+quidation Threshold":"0.0000000000000076","loan to value":"0.0000000000000074","health Factor":"1.737501531610155105"}
