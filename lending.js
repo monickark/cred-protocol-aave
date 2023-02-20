@@ -6,7 +6,7 @@ async function main() {
   try {
     let Web3 = require("web3");
     var web3 = new Web3(
-      `https://mainnet.infura.io/v3/f02d07f5c1494736b277cbcc3bacf2ca`
+      `https://mainnet.infura.io/v3/4d461d5e7587469ab541796d232b6a6f`
     );
 
     const lpAddressProviderContract = await new web3.eth.Contract(
