@@ -1,12 +1,6 @@
 // Import the ABIs, see: https://docs.aave.com/developers/developing-on-aave/deployed-contract-instances
-const LendingPoolAddressesProviderABI = require("./lending/lendingPool.json");
-const LendingPoolReserveProviderABI = require("./lending/lendingReserve.json");
 const UIPoolDataProviderContractABI = require("./lending/UIPoolDataProviderV3.json");
-// Retrieve the LendingPool address
-const lpAddressProviderAddress = "0x398eC7346DcD622eDc5ae82352F02bE94C62d119";
-const lpReserveAddress = "0xC1eC30dfD855c287084Bf6e14ae2FDD0246Baf0d";
-const userAddr = "0x159c1FCC4aa34ffcD0cb9e5a6D34051A82c119b0";
-const asset = "0xdAC17F958D2ee523a2206206994597C13D831ec7";
+// Retrieve the UIPoolcontract address
 const UIPoolDataProviderContract = "0x91c0eA31b49B69Ea18607702c5d9aC360bf3dE7d";
 const IPoolAddressesProvider = "0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e";
 
