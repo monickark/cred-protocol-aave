@@ -1,5 +1,5 @@
 // Import the ABIs, see: https://docs.aave.com/developers/developing-on-aave/deployed-contract-instances
-const poolProviderABI = require("./lending/pool.json");
+const poolProviderABI = require("../abi/pool.json");
 // Retrieve the LendingPool address
 const poolProviderAddress = "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2"; // mainnet address, for other addresses: https://docs.aave.com/developers/developing-on-aave/deployed-contract-instances
 const userAddr = "0xade58Ee3b3e0ABC11b2b84A6221B64726Ea7d7fb";

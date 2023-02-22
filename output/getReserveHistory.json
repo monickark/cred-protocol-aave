@@ -1,0 +1,60 @@
+{
+    reserve (id: "0x0000000000085d4780b73119b644ae5ecd22b3760xb53c1a33016b2dc2ff3653530bff1848a515c8c5") { 
+      id
+      paramsHistory(skip:1000, first: 5) {
+        id
+        variableBorrowRate
+        utilizationRate
+        liquidityRate
+        timestamp
+      }
+    }
+  }
+
+
+  ======================  RESULT  =========================
+
+  {
+    "data": {
+      "reserve": {
+        "id": "0x0000000000085d4780b73119b644ae5ecd22b3760xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+        "paramsHistory": [
+          {
+            "id": "0x23f8d1830d05439bd12a274b7235f4ef2e0c76b45f849f8e612c5fef10281a8f0x0000000000085d4780b73119b644ae5ecd22b3760xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+            "variableBorrowRate": "8738583280320917802218796",
+            "utilizationRate": "0.16002882",
+            "liquidityRate": "1708042415894390632017327",
+            "timestamp": 1658654724
+          },
+          {
+            "id": "0x23ff83d3dd169762b74794711b20ed62de52760f1c234d87e581aa1087caffbf0x0000000000085d4780b73119b644ae5ecd22b3760xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+            "variableBorrowRate": "40319297748973860426899294",
+            "utilizationRate": "0.8100314",
+            "liquidityRate": "57466119010461842331861469",
+            "timestamp": 1612699524
+          },
+          {
+            "id": "0x240563f6b164cfe45fd3d2f8ed8a2eee076db2d7c7a96ca9e73754b59247b0fe0x0000000000085d4780b73119b644ae5ecd22b3760xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+            "variableBorrowRate": "461328275951249647029665193",
+            "utilizationRate": "0.90955461",
+            "liquidityRate": "147276524454352560164079328",
+            "timestamp": 1619600153
+          },
+          {
+            "id": "0x2407b6fd0da192ac43b8a07c6510ee8c686d3a258c0b2f939f8e2f3d286ef8770x0000000000085d4780b73119b644ae5ecd22b3760xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+            "variableBorrowRate": "37325296244390334728344890",
+            "utilizationRate": "0.74131005",
+            "liquidityRate": "57938625102796421362026252",
+            "timestamp": 1619368693
+          },
+          {
+            "id": "0x2413dcbff403d23b3bbacc8b3aea8e8e8fa4cbeeb61f53afc3dfb4fd9bb469ba0x0000000000085d4780b73119b644ae5ecd22b3760xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+            "variableBorrowRate": "790000000000000000000000000",
+            "utilizationRate": "0.93343187",
+            "liquidityRate": "561965226586072682713309063",
+            "timestamp": 1608840310
+          }
+        ]
+      }
+    }
+  }

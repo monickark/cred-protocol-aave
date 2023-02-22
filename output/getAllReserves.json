@@ -1,0 +1,504 @@
+{
+    reserves (where: {
+      usageAsCollateralEnabled: true
+    }) {
+      id
+      name
+      price {
+        id
+      }
+      liquidityRate
+      variableBorrowRate
+      stableBorrowRate
+    }
+  }
+
+
+  ======================  RESULT  =========================
+
+  {
+    "data": {
+      "reserves": [
+        {
+          "id": "0x0000000000085d4780b73119b644ae5ecd22b3760xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "TrueUSD",
+          "price": {
+            "id": "0x0000000000085d4780b73119b644ae5ecd22b376"
+          },
+          "liquidityRate": "23387133532102903216458065",
+          "variableBorrowRate": "32319550110828231172639170",
+          "stableBorrowRate": "116159775055414115586319585"
+        },
+        {
+          "id": "0x004375dff511095cc5a197a54140a24efef3a4160xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0x004375dff511095cc5a197a54140a24efef3a416"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "yearn.finance",
+          "price": {
+            "id": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e"
+          },
+          "liquidityRate": "187520440866185380577833",
+          "variableBorrowRate": "6038402764490185354079658",
+          "stableBorrowRate": "8626289663557407648685224"
+        },
+        {
+          "id": "0x0d8775f648430679a709e98d2b0cb6250d2887ef0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Basic Attention Token",
+          "price": {
+            "id": "0x0d8775f648430679a709e98d2b0cb6250d2887ef"
+          },
+          "liquidityRate": "996390140657372302735085",
+          "variableBorrowRate": "13660624801193901222550680",
+          "stableBorrowRate": "49515178287419858889358113"
+        },
+        {
+          "id": "0x0f5d2fb29fb7d3cfee444a200298f468908cc9420xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Decentraland MANA",
+          "price": {
+            "id": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942"
+          },
+          "liquidityRate": "778948794740311403639803",
+          "variableBorrowRate": "13610761790129638424755093",
+          "stableBorrowRate": "49443945414470912035364420"
+        },
+        {
+          "id": "0x111111111117dc0aa78b770fa6a738034120c3020xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "1INCH Token",
+          "price": {
+            "id": "0x111111111117dc0aa78b770fa6a738034120c302"
+          },
+          "liquidityRate": "746726033652435960018446",
+          "variableBorrowRate": "12049760527319679338186371",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "DefiPulse Index",
+          "price": {
+            "id": "0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b"
+          },
+          "liquidityRate": "566304492126990596505869",
+          "variableBorrowRate": "9955063340944815625233100",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0x1eff8af5d577060ba4ac8a29a13525bb0ee2a3d50xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Balancer Pool Token",
+          "price": {
+            "id": "0x1eff8af5d577060ba4ac8a29a13525bb0ee2a3d5"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f9840xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Uniswap",
+          "price": {
+            "id": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+          },
+          "liquidityRate": "548773396475127958646374",
+          "variableBorrowRate": "10329904857923354935722469",
+          "stableBorrowRate": "17708408327868608461238517"
+        },
+        {
+          "id": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c5990xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Wrapped BTC",
+          "price": {
+            "id": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+          },
+          "liquidityRate": "1191684638630859601222300",
+          "variableBorrowRate": "13540166108689415706417889",
+          "stableBorrowRate": "46925207635861769633022362"
+        },
+        {
+          "id": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c5990xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Wrapped BTC",
+          "price": {
+            "id": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+          },
+          "liquidityRate": "772969107513152171696302",
+          "variableBorrowRate": "10895929183038155377992940",
+          "stableBorrowRate": "43619911478797694222491176"
+        },
+        {
+          "id": "0x2fdbadf3c4d5a8666bc06645b8358ab803996e280xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0x2fdbadf3c4d5a8666bc06645b8358ab803996e28"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0x3da1313ae46132a397d90d95b1424a9a7e3e0fce0xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0x3da1313ae46132a397d90d95b1424a9a7e3e0fce"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0x408e41876cccdc0f92210600ef50372656052a380xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Republic Token",
+          "price": {
+            "id": "0x408e41876cccdc0f92210600ef50372656052a38"
+          },
+          "liquidityRate": "2346436633033709061564907",
+          "variableBorrowRate": "22752650782369159162643173",
+          "stableBorrowRate": "32503786831955941660918818"
+        },
+        {
+          "id": "0x43ae24960e5534731fc831386c07755a2dc33d470xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0x43ae24960e5534731fc831386c07755a2dc33d47"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Convex Token",
+          "price": {
+            "id": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
+          },
+          "liquidityRate": "46385730719636245625125822",
+          "variableBorrowRate": "125976339487438798035917572",
+          "stableBorrowRate": "155976339487438798035917572"
+        },
+        {
+          "id": "0x50379f632ca68d36e50cfbc8f78fe16bd1499d1e0xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Gelato Uniswap DAI/USDC LP",
+          "price": {
+            "id": "0x50379f632ca68d36e50cfbc8f78fe16bd1499d1e"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0x514910771af9ca656af840dff83e8264ecf986ca0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "ChainLink Token",
+          "price": {
+            "id": "0x514910771af9ca656af840dff83e8264ecf986ca"
+          },
+          "liquidityRate": "2175838750320343268723677",
+          "variableBorrowRate": "20352289326705045942983027",
+          "stableBorrowRate": "59074699038150065632832895"
+        },
+        {
+          "id": "0x59a19d8c652fa0284f44113d0ff9aba70bd46fb40xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Balancer Pool Token",
+          "price": {
+            "id": "0x59a19d8c652fa0284f44113d0ff9aba70bd46fb4"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0x6b175474e89094c44da98b954eedeac495271d0f0xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Dai Stablecoin",
+          "price": {
+            "id": "0x6b175474e89094c44da98b954eedeac495271d0f"
+          },
+          "liquidityRate": "25200311676512534370880416",
+          "variableBorrowRate": "37416805253279006597418684",
+          "stableBorrowRate": "118708402626639503298709342"
+        },
+        {
+          "id": "0x6b175474e89094c44da98b954eedeac495271d0f0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Dai Stablecoin",
+          "price": {
+            "id": "0x6b175474e89094c44da98b954eedeac495271d0f"
+          },
+          "liquidityRate": "14880471896709453993831248",
+          "variableBorrowRate": "28473142620253081553035188",
+          "stableBorrowRate": "114236571310126540776517594"
+        },
+        {
+          "id": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae90xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Aave Token",
+          "price": {
+            "id": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "0",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0x8798249c2e607446efb7ad49ec89dd1865ff42720xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "SushiBar",
+          "price": {
+            "id": "0x8798249c2e607446efb7ad49ec89dd1865ff4272"
+          },
+          "liquidityRate": "1324775562701867588",
+          "variableBorrowRate": "17805625672912079601573",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0x8bd1661da98ebdd3bd080f0be4e6d9be8ce9858c0xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0x8bd1661da98ebdd3bd080f0be4e6d9be8ce9858c"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0x956f47f50a910163d8bf957cf5846d573e7f87ca0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Fei USD",
+          "price": {
+            "id": "0x956f47f50a910163d8bf957cf5846d573e7f87ca"
+          },
+          "liquidityRate": "1708892864372008754612775",
+          "variableBorrowRate": "205142199534392859441732815",
+          "stableBorrowRate": "185142199534392859441732815"
+        },
+        {
+          "id": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a20xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Maker",
+          "price": {
+            "id": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+          },
+          "liquidityRate": "155094684257671906652850",
+          "variableBorrowRate": "5395638240372051460158689",
+          "stableBorrowRate": "37708054629102930657369554"
+        },
+        {
+          "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb480xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "USD Coin",
+          "price": {
+            "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "liquidityRate": "19779959110281591656861162",
+          "variableBorrowRate": "33149458777450141096163371",
+          "stableBorrowRate": "106574729388725070548081685"
+        },
+        {
+          "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb480xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "USD Coin",
+          "price": {
+            "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          },
+          "liquidityRate": "19388792060151400620772837",
+          "variableBorrowRate": "30547063934308914427414124",
+          "stableBorrowRate": "105273531967154457213707062"
+        },
+        {
+          "id": "0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b9740xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0xa478c2975ab1ea89e8196811f51a7b7ade33eb110xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0xae461ca67b15dc8dc81ce7615e0320da1a9ab8d50xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0xae461ca67b15dc8dc81ce7615e0320da1a9ab8d5"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0xae7ab96520de3a18e5e111b5eaab095312d7fe840xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Liquid staked Ether 2.0",
+          "price": {
+            "id": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "0",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc0xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0xb6909b960dbbe7392d405429eb2b3649752b48380xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0xb6909b960dbbe7392d405429eb2b3649752b4838"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0xba100000625a3754423978a60c9317c58a424e3d0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Balancer",
+          "price": {
+            "id": "0xba100000625a3754423978a60c9317c58a424e3d"
+          },
+          "liquidityRate": "35947556148821492193822525",
+          "variableBorrowRate": "104936243570402146396309154",
+          "stableBorrowRate": "83525888264572961711649396"
+        },
+        {
+          "id": "0xbb2b8038a1640196fbe3e38816f3e67cba72d9400xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0xbb2b8038a1640196fbe3e38816f3e67cba72d940"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Synthetix Network Token",
+          "price": {
+            "id": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"
+          },
+          "liquidityRate": "53669154619935113921875921",
+          "variableBorrowRate": "127295100194431163711363581",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc20xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Wrapped Ether",
+          "price": {
+            "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          },
+          "liquidityRate": "496032860709322512645524",
+          "variableBorrowRate": "8236112772496189753964677",
+          "stableBorrowRate": "40295140965620237192455846"
+        },
+        {
+          "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc20xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Wrapped Ether",
+          "price": {
+            "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          },
+          "liquidityRate": "13471796378654717357501732",
+          "variableBorrowRate": "32888022087878280183934734",
+          "stableBorrowRate": "54092654829345558088352352"
+        },
+        {
+          "id": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d720xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Ethereum Name Service",
+          "price": {
+            "id": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72"
+          },
+          "liquidityRate": "111813605870880397801298",
+          "variableBorrowRate": "4662781838655268962977849",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0xc2adda861f89bbb333c90c492cb837741916a2250xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0xc2adda861f89bbb333c90c492cb837741916a225"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0xd2eec91055f07fe24c9ccb25828ecfefd4be0c410xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Gelato Uniswap USDC/USDT LP",
+          "price": {
+            "id": "0xd2eec91055f07fe24c9ccb25828ecfefd4be0c41"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0xd3d2e2692501a5c9ca623199d38826e513033a170xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0xd3d2e2692501a5c9ca623199d38826e513033a17"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0xd533a949740bb3306d119cc777fa900ba034cd520xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Curve DAO Token",
+          "price": {
+            "id": "0xd533a949740bb3306d119cc777fa900ba034cd52"
+          },
+          "liquidityRate": "17232641572106368510707706",
+          "variableBorrowRate": "57886020910047535791562480",
+          "stableBorrowRate": "112694315585782193987946402"
+        },
+        {
+          "id": "0xdd974d5c2e2928dea5f71b9825b8b646686bd2000xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Kyber Network Crystal",
+          "price": {
+            "id": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200"
+          },
+          "liquidityRate": "6102086646949436094459489",
+          "variableBorrowRate": "29864616801851409783725515",
+          "stableBorrowRate": "67330771002314262229656894"
+        },
+        {
+          "id": "0xdfc14d2af169b0d36c4eff567ada9b2e0cae044f0xacc030ef66f9dfeae9cbb0cd1b25654b82cfa8d5",
+          "name": "Uniswap V2",
+          "price": {
+            "id": "0xdfc14d2af169b0d36c4eff567ada9b2e0cae044f"
+          },
+          "liquidityRate": "0",
+          "variableBorrowRate": "30000000000000000000000000",
+          "stableBorrowRate": "0"
+        },
+        {
+          "id": "0xe41d2489571d322189246dafa5ebde1f4699f4980xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "0x Protocol Token",
+          "price": {
+            "id": "0xe41d2489571d322189246dafa5ebde1f4699f498"
+          },
+          "liquidityRate": "61972988575671927730962",
+          "variableBorrowRate": "1907052898690902449199076",
+          "stableBorrowRate": "32724361283844146355998678"
+        },
+        {
+          "id": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "name": "Enjin Coin",
+          "price": {
+            "id": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c"
+          },
+          "liquidityRate": "1198969019984110234739480",
+          "variableBorrowRate": "15875672472310983305471784",
+          "stableBorrowRate": "22679532103301404722102550"
+        }
+      ]
+    }
+  }

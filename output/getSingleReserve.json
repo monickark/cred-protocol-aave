@@ -1,0 +1,33 @@
+{
+    reserve(id: "0x0000000000085d4780b73119b644ae5ecd22b3760xb53c1a33016b2dc2ff3653530bff1848a515c8c5") 
+    { 
+      price {
+        id
+      }
+      totalLiquidity
+      availableLiquidity
+      liquidityRate
+      aToken {
+        id
+      }
+    }
+  }
+
+ 
+  ======================  RESULT  =========================
+
+  {
+    "data": {
+      "reserve": {
+        "price": {
+          "id": "0x0000000000085d4780b73119b644ae5ecd22b376"
+        },
+        "totalLiquidity": "6623150941950703256651744",
+        "availableLiquidity": "3292687536338450493822805",
+        "liquidityRate": "23387133532102903216458065",
+        "aToken": {
+          "id": "0x101cc05f4a51c0319f570d5e146a8c625198e636"
+        }
+      }
+    }
+  }

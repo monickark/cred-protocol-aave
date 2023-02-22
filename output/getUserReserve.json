@@ -1,0 +1,37 @@
+{
+    userReserves(where: { 
+      user: "0x02c56de4f2848d84e06d5f5584a1ab2b1b4ccc94"
+      reserve: "0x6b175474e89094c44da98b954eedeac495271d0f0xb53c1a33016b2dc2ff3653530bff1848a515c8c5"
+        
+    }) {
+      id
+      reserve{
+        id
+        symbol
+      }
+      user {
+        id
+      }
+    }
+  }
+
+
+
+  ========= RESULT =============
+
+  {
+    "data": {
+      "userReserves": [
+        {
+          "id": "0x02c56de4f2848d84e06d5f5584a1ab2b1b4ccc940x6b175474e89094c44da98b954eedeac495271d0f0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+          "reserve": {
+            "id": "0x6b175474e89094c44da98b954eedeac495271d0f0xb53c1a33016b2dc2ff3653530bff1848a515c8c5",
+            "symbol": "DAI"
+          },
+          "user": {
+            "id": "0x02c56de4f2848d84e06d5f5584a1ab2b1b4ccc94"
+          }
+        }
+      ]
+    }
+  }

@@ -2,9 +2,10 @@
   "name": "cred-protocol-aave",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"  
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,14 @@
   },
   "homepage": "https://github.com/monickark/cred-protocol-aave#readme",
   "dependencies": {
+    "@graphql-tools/schema": "^9.0.16",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^14.7.0",
     "web3": "^1.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
