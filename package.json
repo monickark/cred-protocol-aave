@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/monickark/cred-protocol-aave#readme",
   "dependencies": {
+    "axios": "^1.3.4",
     "web3": "^1.8.2"
   }
 }

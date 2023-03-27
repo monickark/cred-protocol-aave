@@ -1,0 +1,186 @@
+{
+  reserves (where: {
+    usageAsCollateralEnabled: true,
+    name: "ChainLink Token",
+    symbol: "LINK",
+  }) {
+    id
+    name
+    price {
+      id
+    }
+    liquidityRate
+    variableBorrowRate
+    stableBorrowRate
+    availableLiquidity
+    userReserves {
+      id
+    }
+  }
+}
+
+
+
+#User reserves for aave token
+
+{
+  userReserves(where: { user: "0x00e286b5256aa6cf252d5a8a5a7b8c20ec3bc4d5"}) {
+    id
+    reserve{
+      id
+      symbol
+    }
+    user {
+      id
+    }
+    borrowHistory {
+      id
+    }
+    swapHistory {
+      id
+    }
+    repayHistory {
+      id
+    }
+    liquidationCallHistory {
+      id
+    }
+    supplyHistory {
+      id,
+      amount,
+      assetPriceUSD,
+      action
+    }
+  }
+}
+
+Result:
+
+{
+  "data": {
+    "userReserves": [
+      {
+        "id": "0x00e286b5256aa6cf252d5a8a5a7b8c20ec3bc4d50x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae90x2f39d218133afab8f2b819b1066c7e434ad94e9e",
+        "reserve": {
+          "id": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae90x2f39d218133afab8f2b819b1066c7e434ad94e9e",
+          "symbol": "AAVE"
+        },
+        "user": {
+          "id": "0x00e286b5256aa6cf252d5a8a5a7b8c20ec3bc4d5"
+        },
+        "borrowHistory": [],
+        "swapHistory": [],
+        "repayHistory": [],
+        "liquidationCallHistory": [],
+        "supplyHistory": [
+          {
+            "id": "16754431:46:0x581d968f98599d272d27ad88f0e72bd420fb80b6276ef0be4201afd8b3613964:127:127",
+            "amount": "18894100572297087199326",
+            "assetPriceUSD": "77.19160373",
+            "action": "Supply"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+borrow history for 
+
+{
+  borrows (orderBy: timestamp, orderDirection: desc, where: { 
+    reserve: "0x6b175474e89094c44da98b954eedeac495271d0f0x2f39d218133afab8f2b819b1066c7e434ad94e9e" 
+  }) {
+    id
+    amount
+    timestamp
+    action
+    assetPriceUSD
+    caller {
+      id
+    }
+    user{
+      id
+    }
+  }
+ 
+}
+
+
+{
+  borrows (orderBy: timestamp, orderDirection: desc, where: { 
+    user:"0x09e3ab1ce8126bc411d7132cb4673409a60023cd"
+
+  }) {
+    id
+    amount
+    timestamp
+    action
+    assetPriceUSD
+    caller {
+      id
+    }
+    reserve{
+      id
+    }
+  }
+ 
+}
+
+
+User transaction history
+
+{
+  
+  user(id: "0x09e3ab1ce8126bc411d7132cb4673409a60023cd") {
+    id
+    borrowHistory {
+      id
+      action
+      borrowRate
+      borrowRateMode
+      caller{
+        id
+      }
+      reserve
+      {
+        id
+        symbol
+      }
+      stableTokenDebt
+      timestamp
+      
+    }
+    borrowedReservesCount
+    repayHistory {
+      action
+      amount
+      assetPriceUSD
+      id
+      
+  }
+     lifetimeRewards
+    liquidationCallHistory{
+      id 
+      borrowAssetPriceUSD
+      principalAmount
+      action
+    }
+    
+    swapHistory{
+      id
+      action
+      borrowRateModeTo
+    }
+    
+    unclaimedRewards
+    redeemUnderlyingHistory {
+      id
+    }
+   
+  
+}
+  
+  
+}
+

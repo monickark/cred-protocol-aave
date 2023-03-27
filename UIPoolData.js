@@ -112,7 +112,7 @@ async function main() {
     const UIPoolUserDataUserReserves = await UIPoolContract.methods
       .getUserReservesData(
         IPoolAddressesProvider,
-        "0xEE56e2B3D491590B5b31738cC34d5232F378a8D5"
+        "0x0000000000007f150bd6f54c40a34d7c3d5e9f56"
       )
       .call()
       .catch((e) => {
